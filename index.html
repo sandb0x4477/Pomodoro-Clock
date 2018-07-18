@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<title>Pomodoro Clock</title>
+</head>
+<body>
+	<div class="container">
+ 		<h1 class="title">Pomodoro Clock</h1>
+ 		<div id="headings">
+ 			<div>Break Length</div>
+ 			<div>Session Length</div>
+ 		</div>
+ 		<div id="toggles">
+ 			<div>
+ 				<span id="break-minus" class="button">-</span>
+ 				<span id="break-val" class="set-break"></span>
+ 				<span id="break-plus" class="button">+</span>
+ 			</div>
+ 			<div>
+ 				<span id="session-minus" class="button">-</span>
+ 				<span id="session-val" class="set-session"></span>
+ 				<span id="session-plus" class="button">+</span>
+ 			</div>
+ 		</div>
+ 		<div id="circle">
+ 			<h2 id="name">Session</h2>
+ 			<h2 id="timer"></h2>
+ 		</div>
+	</div>
+
+	<audio id="beep" src="https://goo.gl/65cBl1" preload="auto"></audio>
+</body>
+</html>

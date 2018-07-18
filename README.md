@@ -1,3 +1,3 @@
-# Pomodoro Clock for FreeCodeCamp
+# Pomodoro Clock
 
-View the pomodoro clock live [here](https://bhaviksheth.github.io/Pomodoro-Clock/)
+

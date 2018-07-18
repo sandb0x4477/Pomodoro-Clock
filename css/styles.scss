@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+$bg-color: #0f738b;
+$text-color: #FFF;
+$gap: 20px;
+
+body {
+  background-color: $bg-color;
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+  text-align: center;
+  user-select: none;
+  padding-top: 5%;
+}
+
+.title {
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#headings {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#headings {
+  div {
+    display: inline-block;
+  }
+
+  div:first-child {
+    margin-right: $gap;
+  }
+
+  div:last-child {
+    margin-left: $gap;
+  }
+}
+
+#toggles {
+  font-size: 35px;
+  margin-bottom: 30px;
+
+  div {
+    display: inline-block;
+  }
+
+  div:first-child {
+    margin-right: $gap;
+  }
+
+  div:last-child {
+    margin-left: $gap;
+  }
+}
+
+.button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#circle {
+  border: 2px $text-color solid;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#name {
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+#timer {
+  font-size: 80px;
+  margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 40px;
+  }
+}
