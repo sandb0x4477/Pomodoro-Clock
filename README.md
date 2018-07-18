@@ -1,3 +1,3 @@
 # Pomodoro Clock
-![Pomodoro Clock](preview.png)
+![Pomodoro Clock](preview1.png)
 
