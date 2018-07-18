@@ -67,18 +67,33 @@ body {
   margin: 0 auto;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
 }
 
 #name {
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 40px;
-  margin-top: 50px;
+  top: 28%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 #timer {
+  position: absolute;
   font-size: 80px;
-  margin-top: 40px;
+  top: 55%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#pomo-img {
+  position: relative;
+  top: 15px;
 }
 
 @media (max-width: 480px) {
@@ -86,3 +101,4 @@ body {
     font-size: 40px;
   }
 }
+
